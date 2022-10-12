@@ -1,0 +1,13 @@
+{
+  "name": "containerized-dev-env",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build -t dev .",
+    "ls": "docker ps --format '{{.Names}}'",
+    "la": "docker ps -a --format '{{.Names}}'"
+  },
+  "author": "",
+  "license": "ISC"
+}
